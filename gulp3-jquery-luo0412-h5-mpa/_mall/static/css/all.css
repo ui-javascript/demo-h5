@@ -436,14 +436,14 @@
 .ft-menu .item { display: block; -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; width: .1px; color: #6b6969; }
 .ft-menu .item.current { color: #ff395c; }
 .ft-menu .ico { display: block; margin: auto; width: .84rem; height: .84rem; background-repeat: no-repeat; background-size: 100%; -webkit-transition: background 0.2s; transition: background 0.2s; }
-.ft-menu .ico1 { background-image: url(../img/icon/ftmenu1.png); }
-.ft-menu .current .ico1 { background-image: url(../img/icon/ftmenu1-a.png); }
-.ft-menu .ico2 { background-image: url(../img/icon/ftmenu2.png); }
-.ft-menu .current .ico2 { background-image: url(../img/icon/ftmenu2-a.png); }
-.ft-menu .ico3 { background-image: url(../img/icon/ftmenu3.png); }
-.ft-menu .current .ico3 { background-image: url(../img/icon/ftmenu3-a.png); }
-.ft-menu .ico4 { background-image: url(../img/icon/ftmenu4.png); }
-.ft-menu .current .ico4 { background-image: url(../img/icon/ftmenu4-a.png); }
+.ft-menu .ico1 { background-image: url(/static/images/img/icon/ftmenu1.png); }
+.ft-menu .current .ico1 { background-image: url(/static/images/img/icon/ftmenu1-a.png); }
+.ft-menu .ico2 { background-image: url(/static/images/img/icon/ftmenu2.png); }
+.ft-menu .current .ico2 { background-image: url(/static/images/img/icon/ftmenu2-a.png); }
+.ft-menu .ico3 { background-image: url(/static/images/img/icon/ftmenu3.png); }
+.ft-menu .current .ico3 { background-image: url(/static/images/img/icon/ftmenu3-a.png); }
+.ft-menu .ico4 { background-image: url(/static/images/img/icon/ftmenu4.png); }
+.ft-menu .current .ico4 { background-image: url(/static/images/img/icon/ftmenu4-a.png); }
 .ft-menu .tit { font-size: .36rem; line-height: .6rem; }
 .ft-menu ~ .mui-content { padding-bottom: 1.44rem; }
 
@@ -457,10 +457,10 @@
 .goods-bar { bottom: 0; background-color: #fff; display: -webkit-box; display: -webkit-flex; display: flex; }
 .goods-bar .fn-list { height: 100%; display: block; -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; width: .1px; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-align: center; -webkit-align-items: center; align-items: center; }
 .goods-bar .fn-list .item { height: 1.4rem; display: block; -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; width: .1px; background-repeat: no-repeat; background-position: center; -webkit-background-size: auto 100%; background-size: auto 100%; }
-.goods-bar .fn-list .item.kefu { background-image: url(../img/icon/goodsbar-kefu.jpg); }
-.goods-bar .fn-list .item.shop { background-image: url(../img/icon/goodsbar-shop.jpg); }
-.goods-bar .fn-list .item.like { background-image: url(../img/icon/goodsbar-like.jpg); }
-.goods-bar .fn-list .like.active { background-image: url(../img/icon/goodsbar-like2.jpg); }
+.goods-bar .fn-list .item.kefu { background-image: url(/static/images/img/icon/goodsbar-kefu.jpg); }
+.goods-bar .fn-list .item.shop { background-image: url(/static/images/img/icon/goodsbar-shop.jpg); }
+.goods-bar .fn-list .item.like { background-image: url(/static/images/img/icon/goodsbar-like.jpg); }
+.goods-bar .fn-list .like.active { background-image: url(/static/images/img/icon/goodsbar-like2.jpg); }
 .goods-bar .big-btn { padding: 0; width: 2.7rem; height: 100%; font-size: .42rem; border: none; }
 .goods-bar .add-btn { color: #3e3e3e; background-color: #ffe600; border-color: #ffe600; }
 .goods-bar .add-btn.active { color: #fff; background-color: #dcdcdc; border-color: #dcdcdc; }
