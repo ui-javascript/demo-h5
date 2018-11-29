@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <script src="https://cdn.bootcss.com/vConsole/3.2.0/vconsole.min.js"></script>
+</head>
+
+<body>
+    <noscript>
+        <strong>本页面需要浏览器支持（启用）JavaScript</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+</body>
+<script>
+    if (window.CURRENTMODE === 'development' || window.CURRENTMODE === 'test') {
+        // 初始化
+        console.info('%c调起vConsole调试工具',
+            'background: #41b883; color: #fff; padding: 3px; border-radius: 3px; font-weight: normal');
+        var vConsole = new VConsole();
+    }
+
+</script>
+
+</html>
