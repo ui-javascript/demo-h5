@@ -7,7 +7,7 @@ const htmlmin = require('gulp-htmlmin')
 const md5 = require('gulp-md5-assets')
 
 // const basepath = '@file'
-const _basepath = `./_${config.common.sysName}`
+const _basePath = `./_${config.common.sysName}`
 
 // 编译compileHTML
 gulp.task('compileHTML', function () {
@@ -15,7 +15,7 @@ gulp.task('compileHTML', function () {
         .pipe(plumber())
         .pipe(fileInclude({
             prefix: '@@',
-            basepath: _basepath,
+            basepath: _basePath,
         }))
         // .pipe(gulp.dest(PATHS.htmlDevFolder))
         .pipe(gulp.dest(`${config.common.templatesDir}`))

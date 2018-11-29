@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http//www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>js代码iPhone手机触屏网页TouchScroll插件网页开发</title>
+    <meta name="description"
+          content="js代码触屏手机开发TouchScroll插件制作iPhone手机触屏效果。iPhone手机网页带幻灯片触屏鼠标或手指滑动幻灯片切换。触屏手机开发应用js代码。"/>
+
+    <link rel="stylesheet" href="/static/css/_style.css">
+</head>
+
+
+<body>
+
+<div class="iphonebox">
+
+    <div class="webbox">
+
+        <!--<div id="header">-->
+            <!--<a href="http//www.qiqiboy.com/2012/04/01/touchscroll-v1-0-publish.html">TouchScroll手机触屏打开网页</a>-->
+        <!--</div>-->
+
+        <div id="wrapper">
+            <div class="swipe">
+                <ul id="slider">
+                    <li style="display:block"><img width="326" height="235" src="/static/images/1.jpg" alt=""/></li>
+                    <li><img width="326" height="235" src="/static/images/2.jpg" alt=""/></li>
+                    <li><img width="326" height="235" src="/static/images/3.jpg" alt=""/></li>
+                    <li><img width="326" height="235" src="/static/images/4.jpg" alt=""/></li>
+                </ul>
+                <div id="pagenavi">
+                    <a href="javascript:void(0);" class="active">1</a>
+                    <a href="javascript:void(0);">2</a>
+                    <a href="javascript:void(0);">3</a>
+                    <a href="javascript:void(0);">4</a>
+                </div>
+            </div><!--swipe end-->
+            <div id="scroller">
+                <ul>
+                    <li><img src="/static/images/img01.jpg"/><span>叙利亚战机轰炸叙土边境致6死</span></li>
+                    <li><img src="/static/images/img02.jpg"/><span>寒冬!李宁匹克上千家门店倒闭</span></li>
+                    <li><img src="/static/images/img03.jpg"/><span>梅西压C罗连续三年夺西甲MVP</span></li>
+                    <li><img src="/static/images/img04.jpg"/><span>传姚晨曹郁完婚 宣传:会通知</span></li>
+                    <li><img src="/static/images/img05.jpg"/><span>Nexus4开卖 22分钟抢购一空</span></li>
+                    <li><img src="/static/images/img01.jpg"/><span>叙利亚战机轰炸叙土边境致6死</span></li>
+                    <li><img src="/static/images/img02.jpg"/><span>寒冬!李宁匹克上千家门店倒闭</span></li>
+                    <li><img src="/static/images/img03.jpg"/><span>梅西压C罗连续三年夺西甲MVP</span></li>
+                    <li><img src="/static/images/img04.jpg"/><span>传姚晨曹郁完婚 宣传:会通知</span></li>
+                    <li><img src="/static/images/img05.jpg"/><span>Nexus4开卖 22分钟抢购一空</span></li>
+                    <li><img src="/static/images/img01.jpg"/><span>叙利亚战机轰炸叙土边境致6死</span></li>
+                    <li><img src="/static/images/img02.jpg"/><span>寒冬!李宁匹克上千家门店倒闭</span></li>
+                    <li><img src="/static/images/img03.jpg"/><span>梅西压C罗连续三年夺西甲MVP</span></li>
+                    <li><img src="/static/images/img04.jpg"/><span>传姚晨曹郁完婚 宣传:会通知</span></li>
+                    <li><img src="/static/images/img05.jpg"/><span>Nexus4开卖 22分钟抢购一空</span></li>
+                </ul>
+            </div><!--scroller end-->
+        </div>
+
+        <!--<div id="footer"><a href="http//www.jsfoot.com/">不支持IE6、7、8</a></div>-->
+
+    </div>
+</div>
+
+<script type="text/javascript" src="/static/js/touchScroll.js"></script>
+<script type="text/javascript" src="/static/js/touchslider.dev.js"></script>
+<script type="text/javascript">
+    var active = 0,
+        as = document.getElementById('pagenavi').getElementsByTagName('a')
+
+    var len = as.length
+    for (var i = 0; i < len; i++) {
+
+        (function () {
+            var j = i;
+            as[i].onclick = function () {
+                t2.slide(j);
+                return false;
+            }
+        })();
+    }
+
+    var t1 = new TouchScroll({id: 'wrapper', 'width': 5, 'opacity': 0.7, color: '#555', minLength: 20});
+
+    var t2 = new TouchSlider({
+        id: 'slider', speed: 600, timeout: 6000, before: function (index) {
+            as[active].className = '';
+            active = index;
+            as[active].className = 'active';
+        }
+    });
+</script>
+</body>
+</html>
