@@ -19,9 +19,8 @@
     "fontSpider": "set SYS_NAME=hbcj && gulp 07-font-spider",
     "libsGenerate": "set SYS_NAME=hbcj && gulp 08-libs-generate",
 
-
-    "dev:epsilon": "set SYS_NAME=epsilon && gulp 01-build-dev",
-    "build:epsilon": "set SYS_NAME=epsilon && gulp 03-build-dist",
+    "dev:mall": "set SYS_NAME=mall && gulp 01-build-dev",
+    "build:mall": "set SYS_NAME=mall && gulp 03-build-dist",
 
     "dev:slideby": "set SYS_NAME=slideby && gulp 01-build-dev",
     "build:slideby": "set SYS_NAME=slideby && gulp 03-build-dist",
@@ -35,8 +34,8 @@
     "dev:novel": "set SYS_NAME=novel && gulp 01-build-dev",
     "build:novel": "set SYS_NAME=novel && gulp 03-build-dist",
 
-    "dev:mall": "set SYS_NAME=mall && gulp 01-build-dev",
-    "build:mall": "set SYS_NAME=mall && gulp 03-build-dist",
+    "dev:epsilon": "set SYS_NAME=epsilon && gulp 01-build-dev",
+    "build:epsilon": "set SYS_NAME=epsilon && gulp 03-build-dist",
 
     "dev:vegetable": "set SYS_NAME=vegetable && gulp 01-build-dev",
     "build:vegetable": "set SYS_NAME=vegetable && gulp 03-build-dist",
