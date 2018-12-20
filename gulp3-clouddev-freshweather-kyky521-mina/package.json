@@ -6,9 +6,11 @@
     "install:cnpm": "cnpm install",
     "remove": "rimraf node_modules",
     "start:watch": "gulp watch",
+
     "server:mock": "nodemon ./server/index.js",
-    "dev": "gulp dev",
     "dev:cloud": "gulp cloud:dev",
+    "dev": "gulp dev",
+
     "build": "gulp build --type prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
