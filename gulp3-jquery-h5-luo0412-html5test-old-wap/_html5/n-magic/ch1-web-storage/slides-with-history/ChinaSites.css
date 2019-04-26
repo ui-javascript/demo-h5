@@ -2,7 +2,7 @@
   color: white;
   font-family: Lucida Sans Unicode, serif;
   font-size: small;
-  background-image: url('../../assets/images/slide/background.jpg');
+  background-image: url('/static/images/slide/background.jpg');
   background-size: 100%;
   padding: 10px 50px;
 }
@@ -29,7 +29,7 @@ h1 {
 #slide img {
   margin-top: 10px;
   border: solid 1px white;
- 
+
 }
 
 a {

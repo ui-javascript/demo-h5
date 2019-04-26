@@ -25,7 +25,7 @@ window.onload = function() {
   }
 
   // Draw the maze background.
-  drawMaze("images/manual/maze.png", x, y);
+  drawMaze("/static/images/manual/maze.png", x, y);
 
   // When the user presses a key, run the processKey() function.
   window.onkeydown = processKey;
@@ -37,7 +37,7 @@ window.onbeforeunload = function(event) {
       localStorage.setItem("mazeGame_currentX", x);
       localStorage.setItem("mazeGame_currentY", y);
     }
-  } 
+  }
   // event.returnValue = "我在这写点东西...";
 };
 
@@ -47,11 +47,11 @@ window.onbeforeunload = function(event) {
 //       localStorage.setItem("mazeGame_currentX", x);
 //       localStorage.setItem("mazeGame_currentY", y);
 //     }
-//   } 
+//   }
 // });
 
 
-// Keep track of the current timer, so the drawing can be 
+// Keep track of the current timer, so the drawing can be
 // easily stopped and restarted if a new maze is loaded.
 var timer;
 
@@ -182,5 +182,5 @@ function drawFrame() {
 }
 
 function resetPosition() {
-  drawMaze('images/manual/maze.png', 268, 5);
+  drawMaze('/static/images/manual/maze.png', 268, 5);
 }

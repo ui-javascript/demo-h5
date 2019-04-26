@@ -15,14 +15,14 @@ window.onload = function() {
   context = canvas.getContext("2d");
 
   // Draw the maze background.
-  drawMaze("images/manual/maze.png", 268, 5);
+  drawMaze("/static/images/manual/maze.png", 268, 5);
 
   // When the user presses a key, run the processKey() function.
   window.onkeydown = processKey;
 };
 
 
-// Keep track of the current timer, so the drawing can be 
+// Keep track of the current timer, so the drawing can be
 // easily stopped and restarted if a new maze is loaded.
 var timer;
 
@@ -153,9 +153,9 @@ function drawFrame() {
 }
 
 function loadEasy() {
-  drawMaze('images/manual/easy_maze.png', 5, 5);
+  drawMaze('/static/images/manual/easy_maze.png', 5, 5);
 }
 
 function loadHard() {
-  drawMaze('images/manual/maze.png', 268, 5);
+  drawMaze('/static/images/manual/maze.png', 268, 5);
 }

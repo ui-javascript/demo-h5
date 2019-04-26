@@ -13,6 +13,6 @@ PersonalityTest.js
 PersonalityTest_Score.js
 
 # images
-arrow_left.png
-arrow_right.png
-star.png
+/static/images/personality/arrow_left.png
+/static/images/personality/arrow_right.png
+/static/images/personality/star.png
