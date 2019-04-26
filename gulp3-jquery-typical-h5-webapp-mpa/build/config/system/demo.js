@@ -5,14 +5,14 @@ exports.dev = {
 
     // 设置监听
     stylesWatchFiles: [
-        `./src/assets/css/components/**/*.less`,
+        `./src/styles/components/**/*.less`,
     ],
 
     // 脚本库
     libsName: libsName,
-    libsDevDir: `./src/assets/libs/${libsName}`,
+    libsDevDir: `./src/libs/${libsName}`,
     libsDevMods: '*',  // '{ajax,scroll}' 没空格
-    libsOutputDir: './static/vendor/libs',
+    libsOutputDir: './static/libs',
 
     copyHTMLExclude: [
         `!./_demo/**/*.{html,md,inc}`,

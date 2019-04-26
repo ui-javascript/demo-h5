@@ -29,7 +29,7 @@ gulp.task('copyHTMLLeft', function () {
 gulp.task('copyGlobalImages', function () {
     // 搬运图片
     return gulp.src([
-        `${config.dev.devDir}/assets/images/**/*.*`
+        `${config.dev.devDir}/assets/**/*.*`
         ])
         .pipe(gulp.dest(`${config.common.staticDir}/images`))
 })

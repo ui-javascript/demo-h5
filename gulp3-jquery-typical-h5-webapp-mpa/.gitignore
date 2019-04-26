@@ -1,12 +1,11 @@
-/templates
+/templates/*
 !/templates/.gitkeep
+
 /static/css
-!/static/css/.gitkeep
 /static/images
-!/static/images/.gitkeep
 /static/js
-!/static/js/.gitkeep
 /static/libs
-!/static/libs/.gitkeep
+!/static/.gitkeep
+
 /dist
 /dist.zip

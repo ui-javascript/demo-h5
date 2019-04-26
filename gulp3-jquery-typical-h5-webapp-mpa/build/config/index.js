@@ -14,7 +14,7 @@ exports.common = {
     // 这两个文件随文件夹结构调整
     staticDir: './static',
     // cdnDir: 'http://47.100.99.127:5000/static',
-    cdnDir: './cdn',
+    cdnDir: './public',
     templatesDir: './templates',
     sysName: sysName
 }
@@ -30,16 +30,16 @@ exports.dev = {
     pagesDir: `./_${sysName}`,
 
     // 样式库
-    stylesDir: `./src/assets/css`,
+    stylesDir: `./src/styles`,
     stylesWatchFiles: [
-        `./src/assets/css/**/*.{less,css}`,
+        `./src/styles/**/*.{less,css}`,
         `./_${sysName}/static/css/**/*.{less,css}`,
         `./_${sysName}/**/*.css`,
     ],
 
     // 脚本库
     libsName: 'mumuy',
-    libsDevDir: './src/assets/libs/mumuy',
+    libsDevDir: './src/libs/mumuy',
     // eg. browser || '{ajax,scroll}' 逗号间没空格 || '*' 所有的
     libsDevMods: '*',
     libsOutputDir: './static/libs',

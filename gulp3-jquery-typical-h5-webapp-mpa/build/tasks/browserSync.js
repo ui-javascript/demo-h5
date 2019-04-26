@@ -5,7 +5,7 @@ const reload = browserSync.reload
 
 
 let _routes = {
-    '/static/plus': `${config.common.cdnDir}/plus`,
+    '/static/plugins': `${config.common.cdnDir}/plugins`,
     '/static/vendor': `${config.common.cdnDir}/vendor`,
     '/static/fonts': `${config.common.cdnDir}/fonts`,
     // '/static/tpl': `${config.common.cdnDir}/assets/tpl`,

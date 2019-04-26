@@ -28,8 +28,8 @@
     "dev:coffee": "set SYS_NAME=coffee && gulp 01-build-dev",
     "build:coffee": "set SYS_NAME=coffee && gulp 03-build-dist",
 
-    "dev:model": "set SYS_NAME=model && gulp 01-build-dev",
-    "build:model": "set SYS_NAME=model && gulp 03-build-dist",
+    "dev:phoneModel": "set SYS_NAME=phoneModel && gulp 01-build-dev",
+    "build:phoneModel": "set SYS_NAME=phoneModel && gulp 03-build-dist",
 
     "dev:novel": "set SYS_NAME=novel && gulp 01-build-dev",
     "build:novel": "set SYS_NAME=novel && gulp 03-build-dist",

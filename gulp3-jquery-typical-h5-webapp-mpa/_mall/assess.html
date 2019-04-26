@@ -32,21 +32,21 @@
 <body>
 	<header class="top-header fixed-header">
 		<a class="icona" href="javascript:history.go(-1)">
-				<img src="images/left.png"/>
+				<img src="/static/images/left.png"/>
 			</a>
 		<h3>去评价</h3>
-			
+
 			<a class="iconb" href="shopcar.html">
 			</a>
 	</header>
-	
+
 	<div class="contaniner fixed-cont">
 		<section class="assess">
 				<p>
 					<img src="/static/images/detail-pp01.png"/>
 					<textarea rows="5" placeholder="请写下对宝贝的感受吧，对他人帮助很大哦" ></textarea>
-					
-				</p>	
+
+				</p>
 				<ul>
 					<li>
 						商品评价
@@ -61,18 +61,18 @@
 				</ul>
 		</section>
 	</div>
-	
+
 	<footer class="assess-footer fixed-footer ">
 		<ul>
 			<li>
 				<input type="checkbox" id="ass"/>
 				<label for="ass" onselectstart="return false">匿名评价</label>
-				
+
 			</li>
 			<input type="button" value="发表评论" />
 		</ul>
 	</footer>
-	
+
 	<script type="text/javascript">
 		$(".assess-footer ul li label").on('touchstart',function(){
 			if($(this).hasClass('assd')){
@@ -83,13 +83,13 @@
 		});
 		function level(s)
 {
-	
+
 	var str = '';
 
 	var k = 6-s;
-	
+
 	for(i=1;i<s+1;i++)
-	{	
+	{
 		str += "<img onclick='level("+i+")' src='/static/images/detail-iocn01.png'/>";
 	}
 	for(j=1;j<k;j++)
@@ -102,7 +102,7 @@
 	$('.assess-right').html(str);
 }
 
-		
+
 	</script>
 </body>
 </html>
