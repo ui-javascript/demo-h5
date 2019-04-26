@@ -41,7 +41,13 @@
     "build:vegetable": "set SYS_NAME=vegetable && gulp 03-build-dist",
 
     "dev:blog": "set SYS_NAME=blog && gulp 01-build-dev",
-    "build:blog": "set SYS_NAME=blog && gulp 03-build-dist"
+    "build:blog": "set SYS_NAME=blog && gulp 03-build-dist",
+
+    "dev:html5": "set SYS_NAME=html5 && gulp 01-build-dev",
+    "build:html5": "set SYS_NAME=html5 && gulp 03-build-dist",
+
+    "dev:fcc": "set SYS_NAME=fcc && gulp 01-build-dev",
+    "build:fcc": "set SYS_NAME=fcc && gulp 03-build-dist"
   },
   "author": "luo0412",
   "devDependencies": {
