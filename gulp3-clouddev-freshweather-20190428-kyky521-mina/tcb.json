@@ -1,0 +1,11 @@
+{
+  "path": {
+    "functions": "./server/cloud-functions"
+  },
+  "proxy": "http://localhost:3000/",
+  "https_proxy": "",
+  "mpappid": "wxxxxxxxxxxxxxxxxx",
+  "env": "mina-weather-xxxxxx",
+  "secretid": "AKIxxxxxxxxxxxxxxxxxxxxxxsH",
+  "secretkey": "Mjxxxxxxxxxxxxxxxxxxxxxxxxx6g"
+}
