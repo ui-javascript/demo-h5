@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "install:yarn": "yarn install",
     "install:cnpm": "cnpm install",
     "remove": "rimraf node_modules",
     "serve": "vue-cli-service serve",
