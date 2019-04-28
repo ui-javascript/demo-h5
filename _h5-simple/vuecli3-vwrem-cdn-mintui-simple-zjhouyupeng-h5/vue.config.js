@@ -120,7 +120,8 @@ module.exports = {
                 ]
             },
             sass: {
-                data: '@import "style/_mixin.scss";@import "style/_variables.scss";' // 全局引入
+                // 全局引入
+                data: '@import "style/_mixin.scss";@import "style/_variables.scss";'
             }
         }
     },
