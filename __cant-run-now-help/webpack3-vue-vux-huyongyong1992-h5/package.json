@@ -15,7 +15,7 @@
     "uat": "node build/uat.js"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "fastclick": "^1.0.6",
     "normalize.css": "^8.0.0",
     "postcss-pxtorem": "^4.0.1",
