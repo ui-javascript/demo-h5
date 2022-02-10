@@ -54,7 +54,7 @@
     "imagemin-webpack-plugin": "^2.1.5",
     "mockjs": "^1.0.1-beta3",
     "node-notifier": "^5.2.1",
-    "node-sass": "^4.9.0",
+    "node-sass": "^7.0.0",
     "optimize-css-assets-webpack-plugin": "^4.0.3",
     "path-to-regexp": "^2.2.1",
     "postcss-aspect-ratio-mini": "0.0.2",
