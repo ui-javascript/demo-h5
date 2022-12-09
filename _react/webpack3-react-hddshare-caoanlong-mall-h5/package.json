@@ -65,7 +65,7 @@
   "devDependencies": {
     "cross-env": "^5.2.0",
     "node-sass": "^4.9.3",
-    "qs": "^6.5.2",
+    "qs": "^6.5.3",
     "react-toast-mobile": "^1.0.10",
     "sass-loader": "^7.1.0"
   },
